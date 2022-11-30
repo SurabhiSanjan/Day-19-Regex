@@ -14,12 +14,12 @@ public class Regex {
         public static void main(String[] args) {
 
             System.out.println("Check Name Validation");
-            //boolean fN = validate("Surabhi");
+            boolean fN = validate("Surabhi");
 
-           // if(fN)
-             //   System.out.println("Surabhi is a Valid firstName");
-            //else
-                //System.out.println("Surabhi is an Invalid firstName");
+           if(fN)
+              System.out.println("Surabhi is a Valid firstName");
+            else
+                System.out.println("Surabhi is an Invalid firstName");
         }
 
 
